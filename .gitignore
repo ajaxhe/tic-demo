@@ -1,0 +1,6 @@
+provider.tf
+.terraform
+*.tfstate
+*.tfstate.backup
+*~
+*.[oa]
