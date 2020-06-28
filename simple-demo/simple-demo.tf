@@ -1,19 +1,18 @@
 provider "tencentcloud" {
-  //region = "ap-chengdu"
   region = var.default_region
 }
 
 variable "default_region" {
   type = string
-  default = "ap-chengdu"
+  default = "ap-guangzhou"
 }
 
 variable "default_az" {
   type = string
-  default = "ap-chengdu-1"
+  default = "ap-guangzhou-1"
 }
 
-resource "tencentcloud_cos_bucket" "demo-cos" {
+resource "tencentcloud_cos_bucket" "demo_cos" {
   bucket = "ajaxhe-demo-1259649581"
   acl    = "private"
 }
