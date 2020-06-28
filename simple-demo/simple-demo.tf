@@ -14,6 +14,6 @@ variable "default_az" {
 }
 
 resource "tencentcloud_cos_bucket" "demo-cos" {
-  bucket = "ajaxhe-demo-100010835595"
+  bucket = "ajaxhe-demo-1259649581"
   acl    = "private"
 }
